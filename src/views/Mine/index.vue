@@ -3,8 +3,9 @@
      <div id="main">
        
        <Header title="阿瓜影院" />
+      
        <div>
-
+           
        <Login />
        </div>
        <TabBar />
