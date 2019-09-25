@@ -19,7 +19,7 @@
 
 <script>
 export default {
-    name:'Tabbar'
+    name:'TabBar'
 }
 </script>
 

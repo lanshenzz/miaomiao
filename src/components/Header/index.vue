@@ -1,12 +1,19 @@
 <template>
-  <head id="header">
-      <h1>{{title}}</h1>
-  </head>
+  <header id="header">
+      <slot></slot><h1>{{title}}</h1>
+  </header>
+  
 </template>
-
+ 
 <script>
+
 export default {
   name:'Header',
+  // data(){
+  //   return {
+  //     title:'阿瓜影院'
+  //   }
+  // },
   props:{
     title:{
       type:String,
